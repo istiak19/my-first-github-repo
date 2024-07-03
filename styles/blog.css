@@ -1,11 +1,28 @@
-div {
+div { 
     background-color: tan;
-    padding:0;  
+    padding:0px;  
     margin-bottom: 10px; 
     text-align: justify;
-    /* border: 10px solid skyblue; */
 }
 img{
     width: 300px;
     border: 5px solid skyblue;
+}
+.container{
+    background-color: rgb(75, 86, 86);
+    justify-content: center;
+    display:inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 5px 7px blueviolet;
+}
+.custom{
+    font-size: 20px;
+    font-weight: 600;
+    color: burlywood;
+    padding: 15px;
+    box-shadow: 2px 5px 7px navajowhite;    /* background-size: 0%; */
+    border: 2px solid;
+    border-radius: 5px;
 }
