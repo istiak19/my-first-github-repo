@@ -1,7 +1,11 @@
-div{
+div {
     background-color: tan;
-    padding: 10px;  
+    padding:0;  
     margin-bottom: 10px; 
     text-align: justify;
-    /* border: 5px solid; */
+    /* border: 10px solid skyblue; */
+}
+img{
+    width: 300px;
+    border: 5px solid skyblue;
 }
