@@ -1,28 +1,38 @@
-div { 
-    background-color: tan;
-    padding:0px;  
-    margin-bottom: 10px; 
-    text-align: justify;
+.div1{
+    background-image:url(../Tea.jpg); 
+    background-color: rgb(153, 164, 173);
+    color:rgb(175, 175, 75);
+    /* background-size: cover; */
 }
 img{
     width: 300px;
     border: 5px solid skyblue;
 }
 .container{
+    background-size: cover;
     background-color: rgb(75, 86, 86);
+    background-image:linear-gradient(45deg, #730654, transparent), url(../Tea.jpg);
     justify-content: center;
     display:inline-flex;
     align-items: center;
     width: 100%;
-    height: 80px;
-    box-shadow: 2px 5px 7px blueviolet;
+    height: 500px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    /* box-shadow: 2px 5px 7px blueviolet; */
 }
 .custom{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: burlywood;
     padding: 15px;
     box-shadow: 2px 5px 7px navajowhite;    /* background-size: 0%; */
-    border: 2px solid;
+    border: 2px solid brown;
     border-radius: 5px;
+    margin: 30px auto;
+}
+.h1{
+    text-align: center;
+    text-decoration: underline;
+    color: yellowgreen;
 }
